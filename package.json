@@ -1,0 +1,21 @@
+{
+  "name": "vexatious",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "save": "git add .; git commit -m 'Updated Release'; git push; npm version patch; npm publish; git push;",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "catpea",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catpea/vexatious.git"
+  },
+  "bugs": {
+    "url": "https://github.com/catpea/vexatious/issues"
+  },
+  "homepage": "https://github.com/catpea/vexatious#readme",
+  "license": "ISC"
+}
